@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SEMANA33</title>
+    <style>
+    .body{
+    background-color: #040152;
+    }
+    .tiempo{
+    position: absolute;
+    top: 40px;
+    left:450px;
+    width:500px;
+    height:100px;
+    background-color:#5F59FF ;
+    font-family: cursive;
+    font-size:70px;
+    border-radius: 30px;
+  }
+  .numero1{
+    position: absolute;
+    top: 150px;
+    left:450px;
+    width:125px;
+    height:120px;
+    background-color:#5F59FF ;
+    font-size:100px;
+    border-radius: 30px;
+    }
+    .simbolo{
+    position: absolute;
+    top: 150px;
+    left:625px;
+    width:125px;
+    height:120px;
+    background-color:#5F59FF ;
+    font-size:100px;
+    border-radius: 30px;
+    }
+   .numero2{
+    position: absolute;
+    top:150px;
+    left:800px;
+    width:125px;
+    height:120px;
+    background-color:#5F59FF ;
+    font-size:100px;
+    border-radius: 30px;
+    padding-left:1.1%;
+    padding-top:0.0 ;
+    box-sizing: border-box;
+    }
+   .result{
+    position: absolute;
+    top:300px;
+    left:450px;
+    width:300px;
+    height:125px;
+    background-color:#5F59FF ;
+    font-size:100px;
+    border-radius: 30px;
+    }
+    .re{
+    position: absolute;
+    box-sizing: border-box;
+    top:10px;
+    left:10px;
+    width:280px;
+    height:110px;
+    background-color:#B4B2FF;
+    font-size:80px;
+    border-radius: 30px;
+    text-align: center;
+    }
+    .ent{
+    position: absolute;
+    box-sizing: border-box;
+    top:300px;
+    left:800px;
+    width:320px;
+    height:125px;
+    background-color:#5F59FF ;
+    font-size:80px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top:1.5%;
+    font-family: cursive;
+    }
+   .puntos{
+   position: absolute;
+   top:450px;
+   left:450px;
+   width:700px;
+   height:180px;
+   background-color:#5F59FF ;
+   font-size:80px;
+   font-family: cursive;
+   border-radius: 30px;
+   padding-top:5%;
+   padding-left:10%;
+   box-sizing: border-box;
+   }
+  </style>
+</head>
+<body class="body">
+	<div class="numero1" id="xy" ></div>
+    <div class="numero2" id="xyx" ></div>
+    <div class="simbolo" id="ab" ></div>
+    <div class="result"><input type="text" class="re" id="c"></div>
+    <div class="ent">Enter</div>
+    <div class="puntos">Puntaje: </div>
+    <div class="tiempo">Time: </div>
+
+<script type="text/javascript">
+    function ola() {
+    n= Math.floor((Math.random() * (21-0))+0)
+    nx= Math.floor((Math.random() * (21-0))+0)   
+    xy.innerHTML=n; 
+    xyx.innerHTML=nx;
+    if (nx<n) {
+      ab.innerHTML="-";
+    }
+    else{
+       ab.innerHTML="+";
+    }    
+    }
+    ola()
+    function la() {          
+    }
+    function lo(){       
+    }
+</script>
+</body>
+</html>
